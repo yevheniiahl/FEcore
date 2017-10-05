@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Pathway Gothic One';
+	src: url('../fonts/PathwayGothicOne-Regular.eot');
+	src: url('../fonts/PathwayGothicOne-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PathwayGothicOne-Regular.woff2') format('woff2'),
+		url('../fonts/PathwayGothicOne-Regular.ttf') format('truetype'),
+		url('../fonts/PathwayGothicOne-Regular.svg#PathwayGothicOne-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#wrapper{
+	background-color: #fff;
+	box-sizing: border-box;
+	width:406px;
+	height:auto;
+	margin:auto;
+	padding:0;
+	/*border:2px solid #afaeae;*/
+	box-shadow:0 0 4 4 #DCDCDC;
+}
+
+.header {
+	color:#606b82;
+	font:25px Pathway Gothic One,sans-serif;
+	font-weight: bold;
+	margin:0;
+	padding:30px 0 0;
+
+}
+
+.paragraph1 {
+	width:406px;
+	color:#606b82;
+	font:14px arial,sans-serif;
+	font-weight: bold;
+	line-height: 1.5;
+	margin:0;
+	padding:30px 0 0;
+}
+
+.paragraph2 {
+	width:406px;
+	color:#606b82;
+	font:12px arial ,sans-serif;
+	line-height: 1.5;
+	margin:0;
+	padding:22px 0 0;
+}
+
+.bold{
+	color:#606b82;
+	font:15px arial,sans-serif;
+	font-weight: bold;
+	line-height: 1.5;
+
+.arrow {
+	list-style-image: url("images/arrow.jpg");
+	display: inline-block;
+	box-sizing: border-box;
+	width:49%;
+	
+}
