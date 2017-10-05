@@ -8,7 +8,9 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+/*body {
+	background-color: #000;
+}*/
 #wrapper{
 	background-color: #fff;
 	box-sizing: border-box;
@@ -53,11 +55,21 @@
 	font:15px arial,sans-serif;
 	font-weight: bold;
 	line-height: 1.5;
+}
 
-.arrow {
-	list-style-image: url("images/arrow.jpg");
-	display: inline-block;
+ul.arrow li {
+	list-style-image: url("../images/arrow.jpg");
 	box-sizing: border-box;
 	width:49%;
-	
+	color:#606b82;
+	font:15px arial,sans-serif;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-right:-4px;
+	display: inline-block;
 }
+
+ul.list li {
+	color:#606b82;
+	font:12px arial ,sans-serif;
+	line-height: 1.5;

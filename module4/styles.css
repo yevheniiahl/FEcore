@@ -28,6 +28,7 @@ body {
 	height:545px;
 	margin:112px 15px 44px 60px;
 	display:inline-block;
+	vertical-align: top;
 }
 
 .sidebar {
@@ -35,20 +36,23 @@ body {
 	height:545px;
 	margin:112px 50px 44px 15px;
 	display:inline-block;
+	vertical-align: top;
 }
 
 .content {
 	width:658px;
-	height:auto;
-	margin:44px 15px 0 60px;
+	height:545px;
+	margin:300px 15px 0 60px;
 	display:inline-block;
+	vertical-align: top;
 }
 
 .testimonial {
 	width:224px;
 	height:545px;
-	margin:44px 50px 0 15px;
+	margin:300px 50px 0 15px;
 	display:inline-block;
+	vertical-align: top;
 }
 
 img {
@@ -58,7 +62,8 @@ img {
 
 .name {
 	color:#606b82;
-	font:25px Pathway Gothic One,sans-serif;
+	font-size:25px;
+	font-family: Pathway Gothic One,sans-serif;
 	font-weight: bold;
 	margin:0;
 	padding:30px 0 0;
@@ -73,7 +78,7 @@ img {
 	padding:30px 0 0;
 }
 
-.paragraph2 {
+.p2 {
 	color:#606b82;
 	font:12px arial ,sans-serif;
 	line-height: 1.5;
@@ -81,19 +86,31 @@ img {
 	padding:22px 0 0;
 }
 
-.bold{
+ul.list li{
+	list-style-image: url("../images/arrow.jpg");
+	box-sizing: border-box;
+	width:49%;
 	color:#606b82;
 	font:15px arial,sans-serif;
 	font-weight: bold;
 	line-height: 1.5;
+	margin-right:-4px;
+	display: inline-block;
 }
 
-p {
+/*ul.list li:before {
+	content:"url("images/arrow.jpg")";
+	display: inline-block;
+	margin-right: 20px;
+}
+*/
+blockquote {
 	color:#606b82;
 	font:13px arial,sans-serif;
 	line-height: 1.5;
-
 }
+
+
 
 
 
