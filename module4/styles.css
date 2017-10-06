@@ -87,7 +87,9 @@ img {
 }
 
 ul.list li{
-	list-style-image: url("../images/arrow.jpg");
+	/*list-style-image: url("../images/arrow.jpg");*/
+	list-style: none;
+	background:url("images/arrow.jpg") no-repeat;
 	box-sizing: border-box;
 	width:49%;
 	color:#606b82;
@@ -98,12 +100,12 @@ ul.list li{
 	display: inline-block;
 }
 
-/*ul.list li:before {
-	content:"url("images/arrow.jpg")";
+ul.list li:before {
+	content:"";
 	display: inline-block;
 	margin-right: 20px;
 }
-*/
+
 blockquote {
 	color:#606b82;
 	font:13px arial,sans-serif;
