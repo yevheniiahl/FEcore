@@ -1,3 +1,9 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
 @font-face {
 	font-family: 'Pathway Gothic One';
 	src: url('../fonts/PathwayGothicOne-Regular.eot');
@@ -10,7 +16,9 @@
 }
 
 body {
-	background-image: 
+	background:url("images/page-bg.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .wrapper {
@@ -19,98 +27,191 @@ body {
 	margin:auto;
 }
 
-*{
-	box-sizing: border-box;
-}
-
 .header {
 	width:658px;
-	height:545px;
-	margin:112px 15px 44px 60px;
+	/*height:545px;*/
+	margin:20px 15px 20px 60px;
 	display:inline-block;
 	vertical-align: top;
 }
 
 .sidebar {
 	width:224px;
-	height:545px;
-	margin:112px 50px 44px 15px;
+	/*height:545px;*/
+	margin:20px 50px 20px 15px;
+	padding-left:36px;
 	display:inline-block;
 	vertical-align: top;
 }
 
+.hor_line {
+	border-bottom:1px solid #dedbdb;
+	padding-top: 54px;
+}
+
 .content {
 	width:658px;
-	height:545px;
-	margin:300px 15px 0 60px;
+	/*height:545px;*/
+	margin:20px 15px 80px 60px;
 	display:inline-block;
 	vertical-align: top;
 }
 
 .testimonial {
 	width:224px;
-	height:545px;
-	margin:300px 50px 0 15px;
+	/*height:545px;*/
+	margin:20px 50px 0 15px;
 	display:inline-block;
 	vertical-align: top;
 }
 
-img {
+.fleft {
 	float:left;
-	margin:20px;
+	margin-right:25px;
+	margin-bottom:0px;
 }
 
-.name {
+.clearfix {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.image-inner {
+	max-width: 100%;
+	box-sizing:border-box;
+	margin-top:35px;
+	margin-bottom:16px;
+	position:relative;
+}
+
+img {
+	vertical-align: top;
+}
+
+.name1 {
 	color:#606b82;
 	font-size:25px;
 	font-family: Pathway Gothic One,sans-serif;
 	font-weight: bold;
-	margin:0;
-	padding:30px 0 0;
+	padding:110px 0 0;
 }
 
-.p1 {
+.name2 {
+	color:#606b82;
+	font-size:25px;
+	font-family: Pathway Gothic One,sans-serif;
+	font-weight: bold;
+	padding:60px 0 0;
+}
+
+.text1 {
 	color:#606b82;
 	font:14px arial,sans-serif;
 	font-weight: bold;
-	line-height: 1.5;
+	line-height: 19px;
 	margin:0;
 	padding:30px 0 0;
 }
 
-.p2 {
+.text2 {
 	color:#606b82;
 	font:12px arial ,sans-serif;
 	line-height: 1.5;
 	margin:0;
-	padding:22px 0 0;
+	padding:14px 0 0;
 }
 
-ul.list li{
+ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.extra_wrapper {
+	overflow:hidden;	
+}
+
+
+ul.list1 .count {
+	text-align:center;
+	margin-top:47px;
+	margin-left:-40px;
+	border-radius:500px;
+	float:left;
+	width:31px;
+	line-height:30px;
+	height:31px;
+	color:#fff;
+	border:1px solid #4f93b2;
+	background-color: #38afe5;
+	position:absolute;
+}
+
+/*ul.list1 .count:before {
+	content:"";
+	background-size: contain;
+	background-position: center;
+	width: 10px;
+	height: 18px;
+}*/
+
+ul.list2 li{
 	/*list-style-image: url("../images/arrow.jpg");*/
 	list-style: none;
-	background:url("images/arrow.jpg") no-repeat;
+	position: relative;
 	box-sizing: border-box;
 	width:49%;
 	color:#606b82;
 	font:15px arial,sans-serif;
 	font-weight: bold;
 	line-height: 1.5;
+	padding-top: 30px;
+	padding-left:20px;
 	margin-right:-4px;
 	display: inline-block;
 }
 
-ul.list li:before {
+ul.list2 li:before {
 	content:"";
+	background:url("images/arrow.jpg") no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 10px;
+	height: 18px;
 	display: inline-block;
-	margin-right: 20px;
+	margin-left: 20px;
+	position: absolute;
+	/*top: 10px;*/
+	left:-20px;
 }
 
 blockquote {
-	color:#606b82;
-	font:13px arial,sans-serif;
-	line-height: 1.5;
+	margin-top:20px;
+	margin-bottom: 0 !important;
+	display:block;	
 }
+
+blockquote p{
+	color:#606b82;
+	font:14px arial,sans-serif;
+	padding: 20px 20px 20px 20px;
+	font-weight: bold;
+	line-height: 19px;
+	background-color:#fcfafa;
+	border:1px solid #f3f1f1;
+}
+
+.bq_bot .text1 {
+	margin-top:20px;
+	text-align:center;
+}
+
+.bq_bot .text2 {
+	text-align:center;
+
+}
+
 
 
 
